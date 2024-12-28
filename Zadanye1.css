@@ -1,0 +1,17 @@
+.box {
+    background-color: lightcoral;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+#block {
+    display: block;
+}
+
+#inline {
+    display: inline;
+}
+
+#flex {
+    display: flex;
+}

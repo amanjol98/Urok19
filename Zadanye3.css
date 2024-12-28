@@ -1,0 +1,14 @@
+.box {
+    display: flex; /*
+    flex-direction: column; Добавил к flex-контейнеру из предыдущего задания следующее flex-direction: column и   flex-wrap: wrap
+    flex-wrap: wrap;*/
+    flex-flow: column wrap; /* Использовал сокращённое свойство `flex-flow` для комбинирования направлений и обёртывания. */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex {
+    background-color: lightcoral;
+    padding: 15px;
+    border: 3px solid green;
+}
